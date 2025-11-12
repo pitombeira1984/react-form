@@ -1,1 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libertinus Serif Display", system-ui;
+  letter-spacing: 1px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(../public/BG_Astronalta.svg);
+  background-size: cover;      /* cobre toda a tela */
+  background-position: center; /* centraliza */
+  background-repeat: no-repeat; /* evita repetição */
+  padding: 1rem; /* evita colar nas bordas em telas pequenas */
+  overflow-x: hidden; /* remove rolagem horizontal */
+  color: white;
+}
